@@ -1,0 +1,5 @@
+// cd nama_folder >> masuk ke folder tsb
+// cd ../  >> untuk kembali ke folder sebelumnya
+// ls >> melihat isi dalam folder ada apa aja
+// cls atau clear >> untuk membersihkan terminal
+// pakai tab untuk autocomplete 

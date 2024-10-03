@@ -1,0 +1,6 @@
+// Agar bisa menggunakan yang besar
+{
+    "compilerOptions": {
+        "target": "ES2021"
+    }
+}
