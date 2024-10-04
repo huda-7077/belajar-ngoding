@@ -33,7 +33,7 @@ console.log(`${cm} cm = ${cm / 10000} km`);
 // format number as currency (IDR)
 const numToCur: number = 100000000.1;
 console.log(
-  `${numToCur} = ${new Intl.NumberFormat("IDR", {
+  `${numToCur} = ${new Intl.NumberFormat("id-ID", {
     style: "currency",
     currency: "IDR",
   }).format(numToCur)} `
@@ -44,7 +44,7 @@ console.log(
 let theString: string = "Hello world";
 const findString: string = "ell";
 
-theString = theString.replaceAll(findString, "");
+theString = theString.replace(findString, "");
 console.log(theString);
 
 // ============== NO 6 =================
@@ -127,7 +127,7 @@ if (numA < numB && numA < numC) {
 
 // ============== NO 10 =================
 // mengecek tipe data yang di inputkan
-const inputan = "hello";
+const inputan: any = "hello";
 if (typeof inputan == "string") {
   console.log(1);
 } else if (typeof inputan == "number") {
