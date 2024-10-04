@@ -3,3 +3,16 @@
 // ls >> melihat isi dalam folder ada apa aja
 // cls atau clear >> untuk membersihkan terminal
 // pakai tab untuk autocomplete 
+
+
+// github
+// buka terminal
+// Pastikan sudah di folder nya
+// 1. git add .
+// 2. git commit -m "isi pesannya yang akan ditampilkan"
+// 3. git push origin main              -> untuk push ke branch main
+
+
+// SHORTCUT untuk memilih teks yang sama CTRL + D 
+// ATAU BISA JUGA CTRL + F kemudian cari kata yang ingin di replace lalu replace
+// MEMINDAHKAN SATU LINE ALT + ARROW (Atas atau Bawah)
