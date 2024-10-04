@@ -8,7 +8,6 @@ const message: string = "Hello World"; // wajib dijelaskan string atau number at
 const nama: string = "Siti Khodijah";
 const nama2: string = " Metal";
 const nama3: string = " Sekali";
-
 console.log(nama.toLowerCase()); // cara langsung
 console.log(nama.toUpperCase()); // cara langsung 
 console.log(nama.replace("S", "o")); // cara langsung (Case sensitive sehingga yang keubah hanya yang S bukan s)
