@@ -289,7 +289,7 @@ console.log(number1);
 // versi number menggunakan compare function
 const number2: number[] = [3, 5, 1, 9, 6, 20];
 number2.sort((a, b) => a - b); // asc (kecil ke besar)
-// number2.sort((a, b) => b - a); // desc (kecil ke besar)
+// number2.sort((a, b) => b - a); // desc (besar ke kecil)
 console.log(number2);
 
 // REVERSE -> membalikkan urutan element dalam array
