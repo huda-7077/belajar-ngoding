@@ -1,6 +1,8 @@
 // Agar bisa menggunakan yang besar
 {
     "compilerOptions": {
-        "target": "ES2021"
+        "target": "ES2021",
+        "outDir": "./dist", //direktori kompile
+        "moduleDetection": "force" // untuk nulis agar nama variable atau fungsi tidak saling ketergantungan
     }
 }
