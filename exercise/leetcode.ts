@@ -197,14 +197,14 @@
 // };
 // console.log(isPerfectSquare(1));
 
-function removeDuplicates(nums: number[]): number {
-  const result: number[] = nums.filter((a,b )=> nums.indexOf(a) !== b && nums.lastIndexOf(a) === b && nums.indexOf(a) === b)
-  console.log(result);
-  return result.length;
-  // just try;
-}
+// function removeDuplicates(nums: number[]): number {
+//   const result: number[] = nums.filter((a,b )=> nums.indexOf(a) !== b && nums.lastIndexOf(a) === b && nums.indexOf(a) === b)
+//   console.log(result);
+//   return result.length;
+//   // just try;
+// }
 
-console.log(removeDuplicates([1,1, 1, 2]));
+// console.log(removeDuplicates([1,1, 1, 2]));
 // function removeDuplicates(nums: number[]): nsumber {
 //   const arr1: number[] = nums.filter(
 //     (a, b) => nums.indexOf(a) !== b && nums.lastIndexOf(a) === b
@@ -217,3 +217,12 @@ console.log(removeDuplicates([1,1, 1, 2]));
 // }
 
 // console.log(removeDuplicates([1, 1, 2]));
+
+function sumOfUnique(nums: number[]): number {
+  const result = nums.filter(
+    (a, b) => nums.indexOf(a) === b && nums.lastIndexOf(a) === b
+  );
+  if (result.length === 0) return 0;
+  return result.reduce((a, b) => a + b);
+}
+console.log(sumOfUnique([1, 1, 1, 1, 1]));
