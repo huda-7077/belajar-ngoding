@@ -151,6 +151,7 @@ class OnlineShop {
     this.#total += ongkir;
     if (uangUser < this.#total) return "Minggir Lu Missqueen!!!";
     const kembalian: number = uangUser - this.#total;
+    this.#cart = [];
     return {
       pesan: "Transaksi Berhasil",
       totalOngkir: "Rp " + ongkir.toLocaleString("id-ID"),
